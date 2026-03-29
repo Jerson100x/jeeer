@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chosen Soul - Your Divine Purpose Revealed</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        * { font-family: 'Inter', sans-serif; }
+        .hero-gradient {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+        }
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.12);
+            backdrop-filter: blur(24px);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+        .rainbow-glow {
+            background: linear-gradient(45deg, #ff6b6b, #feca57, #48dbfb, #ff9ff3, #54a0ff);
+            background-size: 300% 300%;
+            animation: rainbowShift 4s ease infinite;
+        }
+        @keyframes rainbowShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .pulse-ring {
+            animation: pulseRing 2s ease-in-out infinite;
+        }
+        @keyframes pulseRing {
+            0% { box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7); }
+            70% { box-shadow: 0 0 0 20px rgba(255, 255, 255, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); }
+        }
+        .orbit {
+            animation: orbit 8s linear infinite;
+        }
+        @keyframes orbit {
+            0% { transform: rotate(0deg) translateX(80px) rotate(0deg); }
+            100% { transform: rotate(360deg) translateX(80px) rotate(-360deg); }
+        }
+    </style>
+</head>
+<body class="hero-gradient min-h-screen flex items-center justify-center p-4 sm:p-8 overflow-hidden relative">
+    
+    <!-- Animated Background Elements -->
+    <div class="absolute inset-0 pointer-events-none">
+        <div class="absolute -top-40 -left-40 w-80 h-80 bg-purple-400/20 rounded-full blur-3xl animate-ping" style="animation-duration: 4s;"></div>
+        <div class="absolute -bottom-40 -right-40 w-96 h-96 bg-pink-400/20 rounded-full blur-3xl animate-ping" style="animation-duration: 5s; animation-delay: 1s;"></div>
+        <div class="absolute top-1/4 left-1/4 w-32 h-32 bg-blue-400/20 rounded-full blur-2xl animate-bounce" style="animation-duration: 3s;"></div>
+        <div class="absolute bottom-1/4 right-1/4 w-24 h-24 bg-indigo-400/20 rounded-full blur-xl animate-pulse" style="animation-duration: 2s;"></div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="max-w-sm w-full space-y-8 z-10 relative">
+        
+        <!-- Hero Header -->
+        <div class="text-center glass-effect rounded-3xl p-8 md:p-10 pulse-ring">
+            <div class="w-20 h-20 rainbow-glow rounded-2xl mx-auto mb-6 flex items-center justify-center text-2xl font-bold shadow-2xl border-4 border-white/20">
+                <i class="fas fa-crown text-gray-900"></i>
+            </div>
+            <h1 class="text-3xl md:text-4xl font-black bg-gradient-to-r from-white to-gray-100 bg-clip-text text-transparent mb-3 drop-shadow-2xl">
+                Chosen Soul
+            </h1>
+            <p class="text-white/85 text-lg md:text-xl font-medium leading-tight">
+                Your divine purpose has been revealed
+            </p>
+        </div>
+
+        <!-- Main Reading Card -->
+        <div class="glass-effect rounded-3xl p-8 md:p-10 shadow-2xl hover:shadow-3xl transition-all duration-500">
+            
+            <!-- Progress Indicator -->
+            <div class="w-full bg-white/10 rounded-2xl p-5 mb-8">
+                <div class="flex justify-between items-center mb-3">
+                    <span class="text-white/80 text-sm font-medium flex items-center">
+                        <i class="fas fa-magic mr-2 text-yellow-400"></i>
+                        Soul Revelation
+                    </span>
+                    <span class="text-white font-bold text-lg">100%</span>
+                </div>
+                <div class="w-full bg-white/15 rounded-full h-2 overflow-hidden">
+                    <div class="rainbow-glow h-full w-full rounded-full"></div>
+                </div>
+            </div>
+
+            <!-- Core Numbers Display -->
+            <div class="text-center space-y-8">
+                <div class="rainbow-glow w-16 h-16 rounded-2xl mx-auto flex items-center justify-center text-2xl font-bold mb-6 shadow-xl border-4 border-white/30">
+                    <i class="fas fa-star text-gray-900"></i>
+                </div>
+                
+                <h2 class="text-2xl md:text-3xl font-bold text-white drop-shadow-xl mb-8">
+                    Your Soul Signature
+                </h2>
+
+                <!-- Number Grid -->
+                <div class="grid grid-cols-3 gap-4 mb-10">
+                    <div class="glass-effect rounded-2xl p-6 hover:scale-110 transition-all duration-300 cursor-pointer group">
+                        <div class="text-3xl md:text-4xl font-black text-white mb-2 drop-shadow-2xl group-hover:text-yellow-300">7</div>
+                        <div class="text-white/75 text-xs uppercase tracking-wider font-semibold">Life Path</div>
+                    </div>
+                    <div class="glass-effect rounded-2xl p-6 hover:scale-110 transition-all duration-300 cursor-pointer group">
+                        <div class="text-3xl md:text-4xl font-black text-white mb-2 drop-shadow-2xl group-hover:text-yellow-300">9</div>
+                        <div class="text-white/75 text-xs uppercase tracking-wider font-semibold">Destiny</div>
+                    </div>
+                    <div class="glass-effect rounded-2xl p-6 hover:scale-110 transition-all duration-300 cursor-pointer group">
+                        <div class="text-3xl md:text-4xl font-black text-white mb-2 drop-shadow-2xl group-hover:text-yellow-300">11</div>
+                        <div class="text-white/75 text-xs uppercase tracking-wider font-semibold">Soul Urge</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Button -->
+            <div class="pt-8 border-t border-white/20">
+                <a href="#" onclick="revealDestiny()" class="w-full rainbow-glow text-gray-900 font-bold py-5 px-8 rounded-2xl text-xl shadow-2xl hover:shadow-3xl hover:scale-[1.02] transition-all duration-300 flex items-center justify-center space-x-3 group">
+                    <i class="fas fa-play-circle text-2xl group-hover:rotate-12 transition-transform duration-300"></i>
+                    <span>Reveal Complete Destiny</span>
+                    <i class="fas fa-arrow-right text-xl group-hover:translate-x-1 transition-transform duration-300"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Trust Badge -->
+        <div class="glass-effect rounded-2xl p-6 text-center">
+            <div class="flex items-center justify-center text-white/70 text-sm">
+                <i class="fas fa-shield-alt text-emerald-400 mr-2 text-lg"></i>
+                <span>100% Private & Secure • No data stored</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function revealDestiny() {
+            // Simulate loading
+            const btn = event.target.closest('a');
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin text-xl mr-2"></i><span>Unlocking...</span>';
+            btn.style.transform = 'scale(0.98)';
+            
+            setTimeout(() => {
+                alert('✨ DESTINY UNLOCKED! ✨\n\nYour complete 27-page Soul Blueprint is ready.\n\nLife Path 7: Spiritual Seeker\nDestiny 9: Humanitarian\nSoul Urge 11: Master Intuitive\n\n[Full report would load here]');
+                location.reload();
+            }, 2000);
+        }
+
+        // Parallax mouse effect
+        document.addEventListener('mousemove', (e) => {
+            const mouseX = e.clientX / window.innerWidth;
+            const mouseY = e.clientY / window.innerHeight;
+            const bgElements = document.querySelectorAll('[class*="bg-"][class*="rounded-full"]');
+            bgElements.forEach((el, i) => {
+                const speed = (i + 1) * 0.02;
+                el.style.transform = `translate(${mouseX * speed * 50}px, ${mouseY * speed * 50}px)`;
+            });
+        });
+
+        // Entrance animation
+        window.addEventListener('load', () => {
+            document.body.style.opacity = '0';
+            document.body.style.transition = 'opacity 0.8s ease';
+            setTimeout(() => {
+                document.body.style.opacity = '1';
+            }, 100);
+        });
+    </script>
+</body>
+</html>
